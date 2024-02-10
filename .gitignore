@@ -1,0 +1,33 @@
+.local/
+
+#ide
+*.iml
+
+#IDE
+.vscode/
+.idea/
+
+#vim
+*~
+*.swp
+
+#python
+__pycache__/
+*.pyc
+*.pyo
+
+#mlflow
+mlruns/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# env
+.env
+.envrc
+
+# virtualenv
+.venv/
