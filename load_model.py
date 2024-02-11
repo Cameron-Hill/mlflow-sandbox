@@ -3,8 +3,9 @@ import pandas as pd
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 
-MODEL_URL = "runs:/95d21a6170cf4545a0cff2217c171c33/iris_model"
+MODEL_URL = "runs:/f952c8c1a6fb43c7baab3f642d3c9cd2/iris_model"
 
+mlflow.set_tracking_uri("http://localhost:5000")
 # Load dataset
 print("Loading iris dataset")
 X, y = datasets.load_iris(return_X_y=True)
